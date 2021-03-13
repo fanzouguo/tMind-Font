@@ -1,0 +1,15 @@
+{
+  "name": "svgtofont",
+  "version": "1.0.0",
+  "description": "Create webFont from svg files.",
+  "main": "index.js",
+  "author": "David",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./index.js",
+    "postbuild": "node ./postBuild.js"
+  },
+  "dependencies": {
+    "svgtofont": "^3.8.2"
+  }
+}
